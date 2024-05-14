@@ -5,7 +5,9 @@
   font-family: sans-serif;
 }
 
-
+h5{
+  font-weight: lighter;
+}
 
 .navigation-bar{
   width: 100%;
@@ -126,4 +128,92 @@
 
 .start-speach{
   font-size: 50px;
+}
+
+.text-beneath{
+  font-weight: lighter;
+}
+
+.color-container{
+  background-color: rgb(255, 248, 248);
+  height: 100vh;
+}
+
+.content-second{
+  width: 80%;
+  height: 80vh;
+  display: flex;
+
+  align-items: center;
+  flex-direction: column;
+}
+
+.about-me-bottom{
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-me-img{
+  width: 300px;
+  border: 1px solid #ccc; /* Optional: You can have a border if needed */
+  box-shadow: 20px 20px rgb(251, 53, 53); /* Adjust values as needed */
+  border-radius: 10px;
+}
+
+.about-me{
+  margin-bottom: 100px ;
+  display: flex;
+  height: 20%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about-me h1{
+  font-size: 50px;
+}
+
+
+.about-me-bottom-left{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 33%;
+  
+}
+
+.about-me-bottom-middle{
+  width: 33%;
+  display: flex;
+  align-items: center;
+}
+
+
+hr{
+  background-color: rgb(251, 53, 53);
+  width: 30%;
+  height: 2px;
+  margin-top: 10px;
+}
+
+.service-img{
+  width: 100px;
+}
+
+.service{
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(250, 228, 228);
+  height: 400px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.service-bottom{
+  display: flex;
+  justify-content: space-between;
+  
 }
