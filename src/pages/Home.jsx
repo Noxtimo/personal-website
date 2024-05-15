@@ -97,6 +97,7 @@ const Home = () => {
           <div className="service-bottom">
             <div className="service">
               <img src={ux} className="service-img" />
+              <h2>UI/UX Design</h2>
               <h5>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore
                 quod debitis quas enim sed, vitae soluta consectetur consequatur
@@ -111,6 +112,7 @@ const Home = () => {
             </div>
             <div className="service">
               <img src={digital} className="service-img" />
+              <h2>Digital Marketing</h2>
               <h5>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore
                 quod debitis quas enim sed, vitae soluta consectetur consequatur
@@ -125,6 +127,7 @@ const Home = () => {
             </div>
             <div className="service">
               <img src={web} className="service-img" />
+              <h2>Web Development</h2>
               <h5>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore
                 quod debitis quas enim sed, vitae soluta consectetur consequatur
