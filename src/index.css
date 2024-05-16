@@ -364,4 +364,90 @@ small{
 }
 
 
+.contact-bottom{
+  margin-top: 90px;
+  display: flex;
+}
 
+.contact-form{
+  border: 2px solid   rgb(255, 142, 142);
+  border-radius: 10px;
+  box-shadow: 20px 20px rgb(251, 53, 53);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 500px;
+  width: 50%;
+  padding: 10px;
+}
+.label{
+  width: 100%;
+  height: 30px;
+}
+
+.container-contact{
+  width: 100%;
+  height: 120vh;
+  display: flex;
+  justify-content: center;
+}
+
+#message{
+  width: 100%;
+  height: 200px;
+  resize: vertical;
+  resize: none;
+}
+
+.submit-button{
+
+  background-color: rgb(247, 88, 88);
+  padding: 15px;
+  border-radius: 5px;
+  color: white;
+  width: 80%;
+}
+
+.contact-social{
+
+  width: 40%;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 400px;
+
+}
+
+.message-me{
+  width: 50%;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+
+
+
+}
+
+.message-me div{
+  margin-left: 30px;
+}
+
+.social-links-contact{
+  display: flex;
+  margin-left: 30px;
+}
+
+.social-link-contact{
+  margin-bottom: 30px;
+  margin-right: 20px;
+  width: 30px;
+  height: 30px;
+}
+
+.social-link-contact:hover{
+    color: rgb(251, 53, 53);;
+}
