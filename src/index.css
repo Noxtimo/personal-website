@@ -21,6 +21,7 @@ h5{
 
 .div-nav-bar{
   width: 80%;
+  max-width: 1250px;
   justify-content: space-between;
   display: flex;
   align-items: center;
@@ -68,16 +69,20 @@ h5{
 }
 
 .content{
+  max-width: 1250px;
   width: 80%;
   height: 80vh;
+  max-height: 625px;
   display: flex;
   justify-content: space-between;
 }
 
 
 .my-image{
-  width: 50%;
+  width: 400px;
+  max-width: 600px;
   height: 80vh;
+  max-height: 500px;
   border-radius: 5px;
 }
 
@@ -139,12 +144,14 @@ h5{
 .color-container{
   background-color: rgb(255, 248, 248);
   height: 100vh;
+
 }
 
 .content-second{
   width: 80%;
   height: 80vh;
   display: flex;
+  max-width: 1250px;
 
   align-items: center;
   flex-direction: column;
@@ -300,29 +307,43 @@ hr{
   height: 150px;
   margin-top: 1px;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
-}
+  justify-content: center;
 
+}
+.footer-content{
+  width: 100%;
+  max-width: 1250px; /* Optional: Limit max width for better readability */
+  padding: 0 20px; /* Optional: Add padding to the sides */
+  display: flex;
+  justify-content: space-between; /* Space out the children evenly */
+}
 .social-link-bottom{
   width: 30px;
   height: 30px;
   color: white;
 }
 
-.main-footer div{
+.footer-social-links{
   display: flex;
   justify-content: space-between;
-  width: 15%;
-  margin-left: 10px;
-
+  width: 250px;
 }
 
 .footer-h2{
   color: white;
   margin-right: 10px;
 }
-
+.footer-content2{
+  width: 100%;
+  max-width: 1250px; /* Optional: Limit max width for better readability */
+  padding: 0 20px; /* Optional: Add padding to the sides */
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
 .second-footer{
   display: flex;
   align-items: center;
@@ -361,6 +382,8 @@ small{
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+  max-width: 1250px;
+  max-height: 620px;
 }
 
 

@@ -10,28 +10,33 @@ const Footer = () => {
   return (
     <>
       <footer className="main-footer">
-        <div>
-          <Link to="#">
-            <FaLinkedin className="social-link-bottom" />
-          </Link>
-          <Link to="#">
-            <FaInstagram className="social-link-bottom" />
-          </Link>
-          <Link to="#">
-            <FaGithub className="social-link-bottom" />
-          </Link>
-          <Link to="#">
-            <FaYoutube className="social-link-bottom" />
-          </Link>
-        </div>{" "}
-        <img src={logo} alt="Logo" className="logo" />
-        <h2 className="footer-h2">example@domain.com</h2>
+        <div className="footer-content">
+          <div className="footer-social-links">
+            <Link to="#">
+              <FaLinkedin className="social-link-bottom" />
+            </Link>
+            <Link to="#">
+              <FaInstagram className="social-link-bottom" />
+            </Link>
+            <Link to="#">
+              <FaGithub className="social-link-bottom" />
+            </Link>
+            <Link to="#">
+              <FaYoutube className="social-link-bottom" />
+            </Link>
+          </div>
+
+          <img src={logo} alt="Logo" className="logo" />
+          <h2 className="footer-h2">example@domain.com</h2>
+        </div>
       </footer>
 
       <footer className="main-footer second-footer">
-        <h2 className="footer-h2">
-          <small>Copyright © {year}</small>
-        </h2>
+        <div className="footer-content2">
+          <h2 className="footer-h2">
+            <small>Copyright © {year}</small>
+          </h2>
+        </div>
       </footer>
     </>
   );
