@@ -8,10 +8,16 @@ import macbook from "../images/macbook.jpeg";
 import ux from "../images/ux.png";
 import digital from "../images/digital.png";
 import web from "../images/web.png";
+import about from "../images/about.jpeg";
+import { useRef, useEffect } from "react";
 const About = () => {
   return (
     <>
-      <div className="container color-container">
+      <div className="title">
+        <h1>About Me</h1>
+        <hr></hr>
+      </div>
+      <div className="about-me-container color-container">
         <div className="content-second">
           <div className="about-bottom">
             <img src={macbook} className="about-me-img" />

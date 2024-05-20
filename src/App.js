@@ -7,7 +7,7 @@ import Contact from "./pages/Contact";
 import Portfolio from "./pages/Portfolio";
 import NoPage from "./pages/NoPage";
 import Footer from "./components/Footer.jsx";
-
+import Subscribe from "./components/Subscribe";
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
@@ -42,6 +42,7 @@ const App = () => {
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>
+      <Subscribe />
       <Footer />
     </BrowserRouter>
   );

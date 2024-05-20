@@ -9,7 +9,10 @@ body{
 }
 h5{
   font-weight: lighter;
+  font-size: clamp(1.125rem, 2vw, 1.25rem);
 }
+
+
 
 .navigation-bar{
   width: 100%;
@@ -67,7 +70,14 @@ h5{
   justify-content: center;
   margin-top: 20px;
 }
-
+.service-container{
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
 .content{
   max-width: 1250px;
   width: 80%;
@@ -75,6 +85,7 @@ h5{
   max-height: 625px;
   display: flex;
   justify-content: space-between;
+
 }
 
 
@@ -134,7 +145,7 @@ h5{
 }
 
 .start-speach{
-  font-size: 50px;
+  font-size: clamp(1.5rem, 4vw, 2rem);
 }
 
 .text-beneath{
@@ -150,23 +161,37 @@ h5{
 .content-second{
   width: 80%;
   height: 80vh;
-  display: flex;
   max-width: 1250px;
-
+  display: flex;
+  max-height: 625px;
   align-items: center;
   flex-direction: column;
+  justify-content: space-around;
 }
 
 .about-me-bottom{
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 100%;
+}
+.about-me-container{
+  width: 100%;
+  height: 1250px;
+  max-height: 1250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .about-me-img{
-  width: 300px;
+  width: 22%;
+  height: 80%;
   border: 1px solid #ccc; /* Optional: You can have a border if needed */
   box-shadow: 20px 20px rgb(251, 53, 53); /* Adjust values as needed */
   border-radius: 10px;
+  margin: 5px;
+
 }
 
 .about-me{
@@ -178,9 +203,7 @@ h5{
   justify-content: space-between;
 }
 
-.about-me h1{
-  font-size: 50px;
-}
+
 
 
 .about-me-bottom-left{
@@ -214,11 +237,12 @@ hr{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   background-color: white;
-  height: 400px;
   border-radius: 10px;
   padding: 20px;
+  height: 400px;
+  max-height: 80%;
 }
 
 .service-bottom{
@@ -249,27 +273,31 @@ hr{
 }
 
 .about-bottom-second{
-  margin-top: 100px;
   display: flex;
+  margin-top: 100px;
+
 }
+
+
 
 .progress {
   background: rgba(255,255,255,0.1);
   border-radius: 100px;
   flex-direction: column;
   position: relative;
-  height: 20px;
+  height: 30px;
   width: 500px;
   background-color: grey;
   margin: 10px;
 }
 
 .progress-value {
-  animation: load 3s normal forwards;
+  animation: load normal forwards;
+  animation-duration: 10s;
   box-shadow: 0 10px 40px -10px #fff;
   border-radius: 100px;
   background: rgb(251, 53, 53);
-  height: 15px;
+  height: 20px;
   width: 100%;
   border: 3px solid black;
   display: flex;
@@ -277,9 +305,10 @@ hr{
 }
 
 @keyframes load {
-  0% { width: 0; }
-  100% { width: 100%; }
+  from { width: 0; }
+  to { width: 100%; }
 }
+
 
 
 .text-within{
@@ -414,6 +443,9 @@ small{
   height: 120vh;
   display: flex;
   justify-content: center;
+  margin-bottom: 30px;
+  background-color: rgb(255, 248, 248);
+
 }
 
 #message{
@@ -473,4 +505,69 @@ small{
 
 .social-link-contact:hover{
     color: rgb(251, 53, 53);;
+}
+
+
+.title{
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title hr{
+  background-color: rgb(251, 53, 53);
+  width: 10%;
+  height: 2px;
+  margin-top: 10px;
+}
+
+.sub-container{
+  height: 300px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+.sub-hr{
+  width: 10%;
+}
+
+.sub-top{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 50%;
+}
+
+.sub-input{
+  flex-grow: 1;
+  height: 50%;
+  padding: 5px;
+}
+
+.sub-bottom{
+  width: 50%;
+  height: 100px;
+  display: flex;
+}
+
+.sub-btn{
+  background-color: rgb(247, 88, 88);
+  padding: 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  color: white;
+  width: 100px;
+  height: 30%;
+  margin-left: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
 }

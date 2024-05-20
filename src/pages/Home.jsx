@@ -58,7 +58,11 @@ const Home = () => {
           </div>
           <div className="about-me-bottom">
             <div className="about-me-bottom-left">
-              <h1>Lorem ipsum dolor sit amet.</h1>
+              <div>
+                <h1>Lorem ipsum dolor sit amet.</h1>
+                <hr></hr>
+              </div>
+
               <h5>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Mollitia nesciunt doloribus placeat esse, rem quibusdam
@@ -83,7 +87,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="container">
+      <div className="service-container">
         <div className="content-second">
           {" "}
           <div className="about-me">
@@ -101,10 +105,6 @@ const Home = () => {
               <h5>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore
                 quod debitis quas enim sed, vitae soluta consectetur consequatur
-                et, ad in, illo numquam nostrum pariatur dolores aspernatur!
-                Nostrum dolorum rerum quia qui, suscipit architecto maxime, illo
-                minus molestias pariatur fuga fugiat. Facilis dolorem aliquid
-                natus earum eos quia cupiditate praesentium.
               </h5>
               <Link className="learn-more" to="#">
                 Learn More
@@ -116,10 +116,6 @@ const Home = () => {
               <h5>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore
                 quod debitis quas enim sed, vitae soluta consectetur consequatur
-                et, ad in, illo numquam nostrum pariatur dolores aspernatur!
-                Nostrum dolorum rerum quia qui, suscipit architecto maxime, illo
-                minus molestias pariatur fuga fugiat. Facilis dolorem aliquid
-                natus earum eos quia cupiditate praesentium.
               </h5>
               <Link className="learn-more" to="#">
                 Learn More
@@ -131,10 +127,6 @@ const Home = () => {
               <h5>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore
                 quod debitis quas enim sed, vitae soluta consectetur consequatur
-                et, ad in, illo numquam nostrum pariatur dolores aspernatur!
-                Nostrum dolorum rerum quia qui, suscipit architecto maxime, illo
-                minus molestias pariatur fuga fugiat. Facilis dolorem aliquid
-                natus earum eos quia cupiditate praesentium.
               </h5>
               <Link className="learn-more" to="#">
                 Learn More

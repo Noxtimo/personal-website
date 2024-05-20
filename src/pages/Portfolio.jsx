@@ -1,5 +1,12 @@
 const Portfolio = () => {
-    return <h1>Portfolio</h1>;
-  };
-  
-  export default Portfolio;
+  return (
+    <>
+      <div className="title">
+        <h1>Portfolio</h1>
+        <hr></hr>
+      </div>
+    </>
+  );
+};
+
+export default Portfolio;

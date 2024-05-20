@@ -10,6 +10,10 @@ import { FaYoutube } from "react-icons/fa";
 const Contact = () => {
   return (
     <>
+      <div className="title">
+        <h1>Contact</h1>
+        <hr></hr>
+      </div>
       <div className="container-contact">
         <div className="content-contact">
           <div className="contact-top">
