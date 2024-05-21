@@ -221,7 +221,7 @@ h5{
 }
 
 
-.line-hr{
+hr{
   background-color: rgb(251, 53, 53);
   width: 30%;
   height: 2px;
@@ -570,4 +570,27 @@ small{
   display: flex;
   align-items: center;
   justify-content: center;  
+}
+
+
+
+.white-container{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.img-content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  height: 60%;
+  width: 85%;
+}
+
+.img-logo{
+  width: 150px;
+  height: 125px;
+  margin: 3px;
 }

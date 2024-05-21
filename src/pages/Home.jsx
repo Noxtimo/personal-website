@@ -8,7 +8,6 @@ import macbook from "../images/macbook.jpeg";
 import ux from "../images/ux.png";
 import digital from "../images/digital.png";
 import web from "../images/web.png";
-import UncontrolledExample from "../components/myCarousel";
 
 const Home = () => {
   return (
@@ -136,9 +135,28 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="container color-container">
-        <div className="content">
-          <UncontrolledExample />
+      <div className="container white-container">
+        <div className="about-me">
+          <h1>Technologies I know</h1>
+          <h5>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio,
+            pariatur?
+          </h5>
+          <hr></hr>
+        </div>
+        <div className="img-content">
+          <img src="images/image1.png" className="img-logo" />
+          <img src="images/image2.png" className="img-logo" />
+          <img src="images/image3.png" className="img-logo" />
+          <img src="images/image4.png" className="img-logo" />
+          <img src="images/image5.png" className="img-logo" />
+          <img src="images/image6.jpeg" className="img-logo" />
+          <img src="images/image7.png" className="img-logo" />
+          <img src="images/image8.png" className="img-logo" />
+          <img src="images/image9.png" className="img-logo" />
+          <img src="images/image10.png" className="img-logo" />
+          <img src="images/image11.jpeg" className="img-logo" />
+          <img src="images/image12.jpeg" className="img-logo" />
         </div>
       </div>
     </>
