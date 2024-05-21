@@ -2,8 +2,7 @@ const Portfolio = () => {
   return (
     <>
       <div className="title">
-        <h1>Portfolio</h1>
-        <hr></hr>
+        <div className="title-hr"></div>
       </div>
     </>
   );

@@ -64,7 +64,7 @@ h5{
 
 .container{
   width: 100%;
-  height: 80vh;
+  height: 625px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -72,7 +72,7 @@ h5{
 }
 .service-container{
   width: 100%;
-  height: 80vh;
+  height: 625px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -154,7 +154,7 @@ h5{
 
 .color-container{
   background-color: rgb(255, 248, 248);
-  height: 100vh;
+  height: 675px;
 
 }
 
@@ -221,7 +221,7 @@ h5{
 }
 
 
-hr{
+.line-hr{
   background-color: rgb(251, 53, 53);
   width: 30%;
   height: 2px;
@@ -517,7 +517,7 @@ small{
   justify-content: center;
 }
 
-.title hr{
+.title-hr{
   background-color: rgb(251, 53, 53);
   width: 10%;
   height: 2px;

@@ -8,6 +8,7 @@ import macbook from "../images/macbook.jpeg";
 import ux from "../images/ux.png";
 import digital from "../images/digital.png";
 import web from "../images/web.png";
+import UncontrolledExample from "../components/myCarousel";
 
 const Home = () => {
   return (
@@ -133,6 +134,11 @@ const Home = () => {
               </Link>
             </div>
           </div>
+        </div>
+      </div>
+      <div className="container color-container">
+        <div className="content">
+          <UncontrolledExample />
         </div>
       </div>
     </>

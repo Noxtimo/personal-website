@@ -12,7 +12,7 @@ const Contact = () => {
     <>
       <div className="title">
         <h1>Contact</h1>
-        <hr></hr>
+        <hr className="title-hr"></hr>
       </div>
       <div className="container-contact">
         <div className="content-contact">
