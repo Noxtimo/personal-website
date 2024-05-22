@@ -10,6 +10,8 @@ import digital from "../images/digital.png";
 import web from "../images/web.png";
 import about from "../images/about.jpeg";
 import { useRef, useEffect } from "react";
+import kingston from "../images/kignston.jpeg";
+import cs from "../images/cs.jpeg";
 const About = () => {
   return (
     <>
@@ -114,6 +116,54 @@ const About = () => {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+      <div className="container">
+        <div className="content column-content">
+          {" "}
+          <div className="about-me">
+            <h1>Checkout My YouTube Chanel</h1>
+            <h5>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio,
+              pariatur?
+            </h5>
+            <hr></hr>
+          </div>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/aYwNeiTcNb4?si=jpaJFb3FqxEoPepc"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+      <div className="container  color-container">
+        <div className="content column-content ">
+          <div className="about-me">
+            <h1>My Education</h1>
+            <h5>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio,
+              pariatur?
+            </h5>
+            <hr></hr>
+          </div>
+          <div className="education-left">
+            <Link
+              to="https://www.kingston.ac.uk/undergraduate/courses/computer-science/"
+              className="kingston-div"
+            >
+              <h2>Kingston University London</h2>
+              <img src={kingston} className="education-img" />
+            </Link>
+            <Link className="kingston-div">
+              <h2 className="education-text">Computer Science BSc (Hons)</h2>
+              <img src={cs} className="education-img" />
+            </Link>
           </div>
         </div>
       </div>

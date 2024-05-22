@@ -149,11 +149,8 @@ const Home = () => {
           <img src="images/image2.png" className="img-logo" />
           <img src="images/image3.png" className="img-logo" />
           <img src="images/image4.png" className="img-logo" />
-          <img src="images/image5.png" className="img-logo" />
           <img src="images/image6.jpeg" className="img-logo" />
           <img src="images/image7.png" className="img-logo" />
-          <img src="images/image8.png" className="img-logo" />
-          <img src="images/image9.png" className="img-logo" />
           <img src="images/image10.png" className="img-logo" />
           <img src="images/image11.jpeg" className="img-logo" />
           <img src="images/image12.jpeg" className="img-logo" />

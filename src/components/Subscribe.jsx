@@ -8,8 +8,48 @@ import macbook from "../images/macbook.jpeg";
 import ux from "../images/ux.png";
 import digital from "../images/digital.png";
 import web from "../images/web.png";
+import React, { useState } from "react";
+import emailjs from "@emailjs/browser";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Subscribe = () => {
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [stateMessage, setStateMessage] = useState(null);
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+    setIsSubmitting(true);
+
+    emailjs
+      .sendForm(
+        process.env.REACT_APP_SERVICE_ID,
+        process.env.REACT_APP_TEMPLATE_ID,
+        e.target,
+        process.env.REACT_APP_PUBLIC_KEY
+      )
+      .then(
+        (result) => {
+          setStateMessage("Message sent!");
+          setIsSubmitting(false);
+          toast.success("You Subscribed successfully!");
+          setTimeout(() => {
+            setStateMessage(null);
+          }, 5000); // hide message after 5 seconds
+        },
+        (error) => {
+          setStateMessage("Something went wrong, please try again later");
+          setIsSubmitting(false);
+          toast.error("Something went wrong, please try again later");
+          setTimeout(() => {
+            setStateMessage(null);
+          }, 5000); // hide message after 5 seconds
+        }
+      );
+
+    // Clears the form after sending the email
+    e.target.reset();
+  };
   return (
     <>
       <div className="sub-container">
@@ -23,14 +63,22 @@ const Subscribe = () => {
           <hr className="sub-hr"></hr>
         </div>
 
-        <div className="sub-bottom">
+        <form className="sub-bottom" onSubmit={sendEmail}>
+          <form></form>
           <input
             className="sub-input"
             placeholder="Enter Your Email Address To Recieve A Message From Me"
+            name="email"
           ></input>
-          <Link className="sub-btn">Subscribe</Link>
-        </div>
+          <input
+            type="submit"
+            value="Send"
+            disabled={isSubmitting}
+            className="sub-btn"
+          />
+        </form>
       </div>
+      <ToastContainer />
     </>
   );
 };
