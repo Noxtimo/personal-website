@@ -396,7 +396,8 @@ small{
   padding: 10px;
   height: 100px;
   border-radius: 10px;
-  box-shadow: 20px 20px rgb(247, 88, 88);
+  box-shadow: 10px 10px rgb(247, 88, 88);
+  border: 1px solid grey;
   width: 30%;
   text-align: center;
   justify-content: center;

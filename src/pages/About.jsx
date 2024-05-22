@@ -3,7 +3,6 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
-import myImage from "../images/myImage.jpeg";
 import macbook from "../images/macbook.jpeg";
 import ux from "../images/ux.png";
 import digital from "../images/digital.png";
@@ -77,7 +76,9 @@ const About = () => {
                 aperiam dicta accusantium, non suscipit qui a, eos soluta quidem
                 asperiores molestias?
               </h5>
-              <Link to="#">Download CV</Link>
+              <Link to="/images/resume.pdf" target="_blank" download>
+                Download CV
+              </Link>
             </div>
             <div className="about-bottom-second2">
               <div class="progress">
