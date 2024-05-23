@@ -34,9 +34,10 @@ const Home = () => {
                 I'm A Web Developer Mahamed M. Abdirahman.
               </h1>
               <h5 className="space-bottom text-beneath">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
-                labore quibusdam sequi perspiciatis, vitae adipisci cumque
-                quisquam magni magnam consequuntur.
+                Hey there! Welcome to my personal website. I'm all about
+                creating cool, user-friendly websites that not only look great
+                but work perfectly too. Whether it's front-end design or
+                back-end development, I love bringing ideas to life on the web.
               </h5>
               <Link to="#" className="learn-more">
                 Learn More
@@ -51,26 +52,24 @@ const Home = () => {
           <div className="about-me">
             <h1>About Me</h1>
             <h5>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio,
-              pariatur?
+              I specialize in building responsive and visually engaging
+              websites.
             </h5>
             <hr></hr>
           </div>
           <div className="about-me-bottom">
             <div className="about-me-bottom-left">
               <div>
-                <h1>Lorem ipsum dolor sit amet.</h1>
+                <h1>This website was made with Reactjs</h1>
                 <hr></hr>
               </div>
 
               <h5>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Mollitia nesciunt doloribus placeat esse, rem quibusdam
-                veritatis ipsa aperiam. Libero laboriosam quis quo? Vero dicta
-                ratione eius? In et dicta ipsam a fuga ex eaque recusandae
-                voluptatem omnis voluptas maiores quia ipsa at fugit
-                repellendus, nobis sapiente mollitia alias. Consectetur,
-                doloremque.
+                This website was crafted using React.js, a powerful and flexible
+                JavaScript library for building user interfaces. With its
+                component-based architecture, React.js allows for creating
+                dynamic and responsive web experiences. I chose React.js to
+                ensure this site is both efficient and enjoyable to use.
               </h5>
               <Link to="#" className="learn-more">
                 Contact Me
@@ -78,9 +77,8 @@ const Home = () => {
             </div>
             <div className="about-me-bottom-middle">
               <h5>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est,
-                officia doloribus! Provident temporibus commodi rem beatae
-                ratione. Tempore, dolorum eligendi.
+                Here's an image of my MacBook Pro, the trusty companion I use to
+                bring all my web development projects to life.
               </h5>
             </div>
             <img src={macbook} className="about-me-img" />
@@ -93,8 +91,8 @@ const Home = () => {
           <div className="about-me">
             <h1>What Services I'm Providing</h1>
             <h5>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio,
-              pariatur?
+              Are you curious about which services I am providing? Well great
+              louck, look no further!
             </h5>
             <hr></hr>
           </div>
@@ -103,8 +101,9 @@ const Home = () => {
               <img src={ux} className="service-img" />
               <h2>UI/UX Design</h2>
               <h5>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore
-                quod debitis quas enim sed, vitae soluta consectetur consequatur
+                I provide UX design services, focusing on creating intuitive and
+                engaging user experiences. From research to prototyping, I
+                ensure your digital products meet user needs.
               </h5>
               <Link className="learn-more" to="#">
                 Learn More
@@ -114,8 +113,9 @@ const Home = () => {
               <img src={digital} className="service-img" />
               <h2>Digital Marketing</h2>
               <h5>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore
-                quod debitis quas enim sed, vitae soluta consectetur consequatur
+                I provide digital marketing services focused on boosting online
+                visibility and driving results through strategic campaigns
+                across social media, search engines, and email.
               </h5>
               <Link className="learn-more" to="#">
                 Learn More
@@ -125,8 +125,9 @@ const Home = () => {
               <img src={web} className="service-img" />
               <h2>Web Development</h2>
               <h5>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore
-                quod debitis quas enim sed, vitae soluta consectetur consequatur
+                I specialize in crafting custom websites that bring your ideas
+                to life online. With expertise in design and development, I
+                deliver high-quality solutions tailored to your needs.
               </h5>
               <Link className="learn-more" to="#">
                 Learn More
@@ -138,10 +139,7 @@ const Home = () => {
       <div className="container white-container">
         <div className="about-me">
           <h1>Technologies I know</h1>
-          <h5>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio,
-            pariatur?
-          </h5>
+          <h5>I'm well-versed in various technologies.</h5>
           <hr></hr>
         </div>
         <div className="img-content">

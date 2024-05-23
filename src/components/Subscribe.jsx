@@ -53,11 +53,11 @@ const Subscribe = () => {
     <>
       <div className="sub-container">
         <div className="sub-top">
-          <h1>Lorem ipsum dolor sit amet.</h1>
+          <h1>
+            Subscribe to recieve weekly updates about my development journy.
+          </h1>
           <h5>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. At magnam
-            atque corrupti. Voluptatum, rem iste impedit aspernatur ullam amet
-            molestiae.
+            I will be sharing weekly updates about exciting new things I learn.
           </h5>
           <hr className="sub-hr"></hr>
         </div>

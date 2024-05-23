@@ -39,28 +39,23 @@ const Contact = () => {
                 </div>
                 <div>
                   <h5>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Temporibus consequuntur quod in molestias quia, voluptatibus
-                    voluptatum. Perspiciatis accusantium sapiente magni
-                    recusandae a pariatur aut ea facere saepe reiciendis,
-                    perferendis vitae cum soluta animi optio nihil ex. Beatae,
-                    dignissimos quibusdam est eligendi sit cum? Consequuntur
-                    nesciunt nobis harum alias repellat sequi.
+                    Also, feel free to message me on any of these social media
+                    sites.
                   </h5>
                 </div>
               </div>
 
               <div className="social-links-contact">
-                <Link to="#">
+                <Link to="https://www.linkedin.com/in/mahamed-abdirahman-86695a260/">
                   <FaLinkedin className="social-link-contact" />
                 </Link>
-                <Link to="#">
+                <Link to="https://www.instagram.com/mohamed2k710/">
                   <FaInstagram className="social-link-contact" />
                 </Link>
-                <Link to="#">
+                <Link to="https://github.com/Noxtimo">
                   <FaGithub className="social-link-contact" />
                 </Link>
-                <Link to="#">
+                <Link to="https://www.youtube.com/@Noxti">
                   <FaYoutube className="social-link-contact" />
                 </Link>
               </div>

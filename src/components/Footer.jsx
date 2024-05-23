@@ -12,29 +12,29 @@ const Footer = () => {
       <footer className="main-footer">
         <div className="footer-content">
           <div className="footer-social-links">
-            <Link to="#">
+            <Link to="https://www.linkedin.com/in/mahamed-abdirahman-86695a260/">
               <FaLinkedin className="social-link-bottom" />
             </Link>
-            <Link to="#">
+            <Link to="https://www.instagram.com/mohamed2k710/">
               <FaInstagram className="social-link-bottom" />
             </Link>
-            <Link to="#">
+            <Link to="https://github.com/Noxtimo">
               <FaGithub className="social-link-bottom" />
             </Link>
-            <Link to="#">
+            <Link to="https://www.youtube.com/@Noxti">
               <FaYoutube className="social-link-bottom" />
             </Link>
           </div>
 
           <img src={logo} alt="Logo" className="logo" />
-          <h2 className="footer-h2">example@domain.com</h2>
+          <h3 className="footer-h2">mahamedharrow@gmail.com</h3>
         </div>
       </footer>
 
       <footer className="main-footer second-footer">
         <div className="footer-content2">
           <h2 className="footer-h2">
-            <small>Copyright © {year}</small>
+            <small>Copyright © {year} </small>
           </h2>
         </div>
       </footer>

@@ -31,7 +31,7 @@ const Layout = () => {
               </Link>
             </li>
           </ul>
-          <Link to="#" className="hire-me-nav">
+          <Link to="https://www.fiverr.com/noxtimo" className="hire-me-nav">
             Hire Me
           </Link>
         </div>

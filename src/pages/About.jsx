@@ -11,6 +11,7 @@ import about from "../images/about.jpeg";
 import { useRef, useEffect } from "react";
 import kingston from "../images/kignston.jpeg";
 import cs from "../images/cs.jpeg";
+import photography from "../images/photography.avif";
 const About = () => {
   return (
     <>
@@ -21,32 +22,26 @@ const About = () => {
       <div className="about-me-container color-container">
         <div className="content-second">
           <div className="about-bottom">
-            <img src={macbook} className="about-me-img" />
+            <img src={photography} className="photography" />
             <div className="about-middle">
               {" "}
-              <h1>Lorem ipsum dolor sit amet.</h1>
+              <h1>I also enjoy photography</h1>
               <h5>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Mollitia nesciunt doloribus placeat esse, rem quibusdam
-                veritatis ipsa aperiam. Libero laboriosam quis quo? Vero dicta
-                ratione eius? In et dicta ipsam a fuga ex eaque recusandae
-                voluptatem omnis voluptas maiores quia ipsa at fugit
-                repellendus, nobis sapiente mollitia alias. Consectetur,
-                doloremque.
+                I have a passion for photography, finding joy in capturing
+                moments that tell stories and evoke emotions. Through my lens, I
+                explore the world, seeking beauty in the ordinary and preserving
+                memories that last a lifetime.
               </h5>
-              <h2>example@domain.com</h2>
+              <h2>mahamedharrow@gmail.com</h2>
             </div>
-            <div>
+            <div className="photography-speach-right">
               {" "}
-              <h1>Lorem ipsum dolor sit amet.</h1>
+              <h1> Checkout my social media.</h1>
               <h5>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Mollitia nesciunt doloribus placeat esse, rem quibusdam
-                veritatis ipsa aperiam. Libero laboriosam quis quo? Vero dicta
-                ratione eius? In et dicta ipsam a fuga ex eaque recusandae
-                voluptatem omnis voluptas maiores quia ipsa at fugit
-                repellendus, nobis sapiente mollitia alias. Consectetur,
-                doloremque.
+                I love running social media accounts, as it allows me to share
+                my journey and experiences with a wider audience. It's
+                incredibly rewarding to connect with people, share insights, and
+                spark conversations that resonate deeply.
               </h5>
               <div className="social-links-about">
                 <Link to="#">
@@ -66,15 +61,13 @@ const About = () => {
           </div>
           <div className="about-bottom-second">
             <div className="about-bottom-second-left">
-              <h2>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum,
-                odit!
-              </h2>
+              <h2>Below you can find a copy of resume/CV</h2>
               <h5>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis,
-                nam ullam! Architecto amet officia debitis facere maiores vero
-                aperiam dicta accusantium, non suscipit qui a, eos soluta quidem
-                asperiores molestias?
+                I've dabbled in a bit of everything – from internships to
+                freelancing gigs. Whether I was working with a team or flying
+                solo, I've learned how to adapt and solve problems along the
+                way. I'm ready to bring that experience to the table as a junior
+                developer!
               </h5>
               <Link to="/images/resume.pdf" target="_blank" download>
                 Download CV
@@ -126,8 +119,8 @@ const About = () => {
           <div className="about-me">
             <h1>Checkout My YouTube Chanel</h1>
             <h5>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio,
-              pariatur?
+              Here I make tutorial videoes showing people how to use various
+              technologies.
             </h5>
             <hr></hr>
           </div>
@@ -148,8 +141,8 @@ const About = () => {
           <div className="about-me">
             <h1>My Education</h1>
             <h5>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio,
-              pariatur?
+              I have educatin in computer science. Below you can find links to
+              my University courses.
             </h5>
             <hr></hr>
           </div>
