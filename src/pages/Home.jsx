@@ -16,16 +16,16 @@ const Home = () => {
         <div className="content">
           <div className="content-left">
             <div className="social-links">
-              <Link to="#">
+              <Link to="https://www.linkedin.com/in/mahamed-abdirahman-86695a260/">
                 <FaLinkedin className="social-link" />
               </Link>
-              <Link to="#">
+              <Link to="https://www.instagram.com/mohamed2k710/">
                 <FaInstagram className="social-link" />
               </Link>
-              <Link to="#">
+              <Link to="https://github.com/Noxtimo">
                 <FaGithub className="social-link" />
               </Link>
-              <Link to="#">
+              <Link to="https://www.youtube.com/@Noxti">
                 <FaYoutube className="social-link" />
               </Link>
             </div>
@@ -139,7 +139,9 @@ const Home = () => {
       <div className="container white-container">
         <div className="about-me">
           <h1>Technologies I know</h1>
-          <h5>I'm well-versed in various technologies.</h5>
+          <h5>
+            I'm well-versed in various programming languages and frameworks.
+          </h5>
           <hr></hr>
         </div>
         <div className="img-content">
